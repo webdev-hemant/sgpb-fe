@@ -7,7 +7,9 @@
 export default function Home() {
   return (
     <main className={""}>
-      <h1>||श्री गुरुकृपा पूजा भंडार|| </h1>
+      <h1 className="text-[50px] italic hover:not-italic font-black">
+        || श्री गुरुकृपा पूजा भंडार ||{" "}
+      </h1>
     </main>
   );
 }
